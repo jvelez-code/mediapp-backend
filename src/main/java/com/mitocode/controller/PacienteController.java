@@ -85,7 +85,7 @@ public class PacienteController {
 	}
 	
 	
-	@PutMapping
+	@PutMapping("/{id}")
 //	public Paciente modificar(@Valid @RequestBody Paciente paciente) {
 //		return service.modificar(paciente);		
 //	}
